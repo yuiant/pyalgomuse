@@ -1,0 +1,14 @@
+setuptools==36.2.7
+iteration_utilities==0.7.0
+tqdm==4.21.0
+numpy==1.14.2
+lxml==4.2.1
+pandas==0.22.0
+pretty_midi==0.2.8
+pyaudio==0.2.11
+pychord==0.4.0
+pypianoroll==0.5.0
+pytoml==0.1.21
+torch==1.2.0
+xmltodict==0.12.0
+PyYAML==5.1.2
