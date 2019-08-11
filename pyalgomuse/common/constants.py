@@ -23,5 +23,20 @@ YMLNOTE_VAL_DICT = {
 }
 
 
-
+SYMBOL_CHORD_DICT = {
+    'C':'C',
+    'D':'D',
+    'E':'E',
+    'F':'F',
+    'G':'G',
+    'A':'A',
+    'B':'B',
+    'cm':'Cm',
+    'dm':'Dm',
+    'em':'Em',
+    'fm':'Fm',
+    'gm':'Gm',
+    'am':'Am',
+    'bm':'Bm'
+}
 
