@@ -7,6 +7,7 @@ import argparse
 import sys
 import select
 import termios
+import os
 
 
 # setup key press detection
@@ -79,7 +80,14 @@ class Metronome():
     def quit(self):
         self.stream.close()
         self.p.terminate()
-        print("Exiting...")
+        # print("Exiting...")
+        # sys.exit(0)
+        self.on_exit()
+
+    def on_exit(self):
+        print('metronome Exiting...')
+        os.system('../scripts/result.sh')
+        # print('exec another sh script')
         sys.exit(0)
 
     def pause(self):
