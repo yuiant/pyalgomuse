@@ -16,9 +16,11 @@ pip3 install -r requirements.txt
 ## Dependency
 
 - **TheoryTab Leadsheet Dataset**
+
 Thanks for one of the MuseGan's authors,he has done a lot of parsing work on TheoryTab dataset.I fork and modify his [source code](https://github.com/wayne391/lead-sheet-dataset) into ***pyalgomuse/utils/theorytab*** module
 
 - **piano-rs**
+
 [A rust based program](https://github.com/ritiek/piano-rs) for playing virtual piano by computer keyboards in terminal.I use it for melody input.
 
 ## Task Contents
