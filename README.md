@@ -24,11 +24,14 @@ Thanks for one of the MuseGan's authors,he has done a lot of parsing work on The
 ## Task Contents
 
 ### 0.Basic Dataset Construction
+
+[UNDER CONSTRUCTION]
+
+Reasons:
 - There is little Chinese/Asian songs in current public datasets.
 - Lack of systemic tags in current datasets.
+- No compatibility nor unity of constructing/parsing processing among different datasets
 
-
-- [UNDER CONSTRUCTION]
 
 ### 1. Automatic Arrangement
 To generate corresponding chords for the given melody
@@ -68,10 +71,29 @@ and your melody input(1 octave higher than your actual input)
 
 
 ##### DeepLearning basd method
-- [UNDER CONSTRUCTION]
+[UNDER CONSTRUCTION]
 
 
 #### 1.2 Multi Instrumental Arrangement Generation
-- [UNDER CONSTRUCTION]
+[UNDER CONSTRUCTION]
+- follow the work of MuseGan
+
+
+### 2. Melody Generation
+ [UNDER CONSTRUCTION]
+ To generate melody by images,texts,videos ..or random input
+
+
+### 3. Style Transfer
+[UNDER CONSTRUCTION]
+To transfer a song into pop/classical/jazz/... style
+
+
+### 4. Vocal Synthesis
+
+[UNDER CONSTRUCTION]
+
+
+
 
 
