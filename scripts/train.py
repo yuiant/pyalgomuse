@@ -92,7 +92,7 @@ def handle_segment(segment, symbol2idx):
         df['chord'] = df['idx'].map(lambda x: int(symbol2idx[chords[int(x)]]))
 
 
-        distrubition = df[['chord', 'pitch', 'event_duration']].groupby(
+        distribution = df[['chord', 'pitch', 'event_duration']].groupby(
             ['chord', 'pitch']).sum().reset_index()
 
         chords = ['<START>'] + chords + ['<EOF>']
@@ -100,7 +100,7 @@ def handle_segment(segment, symbol2idx):
         idx = [symbol2idx[c] for c in chords]
 
         a[idx[0:-1], idx[1:]] = 1
-        b[distrubition['chord'], distrubition['pitch']] = distrubition[
+        b[distribution['chord'], distribution['pitch']] = distribution[
             'event_duration']
     except Exception as e:
         pass
