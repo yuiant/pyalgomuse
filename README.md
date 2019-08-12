@@ -2,7 +2,7 @@
 
 ## Description
 
-Praitice in AI × music in python
+Pratice in AI × music in python
 
 ## Installation
 ```
@@ -82,12 +82,16 @@ and your melody input(1 octave higher than your actual input)
 
 
 ### 2. Melody Generation
- [UNDER CONSTRUCTION]
- To generate melody by images,texts,videos ..or random input
+[UNDER CONSTRUCTION]
+
+
+To generate melody by images,texts,videos ..or random input
 
 
 ### 3. Style Transfer
 [UNDER CONSTRUCTION]
+
+
 To transfer a song into pop/classical/jazz/... style
 
 
