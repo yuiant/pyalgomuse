@@ -11,4 +11,4 @@ pypianoroll==0.5.0
 pytoml==0.1.21
 torch==1.2.0
 xmltodict==0.12.0
-PyYAML==5.1.2
+PyYAML==5.4
