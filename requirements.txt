@@ -2,7 +2,7 @@ setuptools==36.2.7
 iteration_utilities==0.7.0
 tqdm==4.21.0
 numpy==1.14.2
-lxml==4.2.1
+lxml==4.6.5
 pandas==0.22.0
 pretty_midi==0.2.8
 pyaudio==0.2.11
